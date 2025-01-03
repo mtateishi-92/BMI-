@@ -1,8 +1,7 @@
 
 def bmi_cal(height_cm, weight):
     height = height_cm/100
-    bmi = round(weight / height**2)
-    return bmi
+    return round(weight / height**2)
 
 def bmi_check(bmi):
     if 40 <= bmi:
